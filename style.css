@@ -1,0 +1,67 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+h1 {
+  font-size: 5rem;
+  margin-top: 2rem;
+}
+#red {
+  color: red;
+}
+#blue {
+  color: blue;
+}
+#green {
+  color: green;
+}
+h3 {
+  font-size: 2.5rem;
+  color: green;
+}
+.scoreContainer {
+  display: flex;
+  gap: 3rem;
+}
+.scoreContainer p {
+  font-size: 3rem;
+}
+.boxContainer {
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+  line-height: 200px;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.box:hover {
+  border: 10px solid black;
+  line-height: 190px;
+}
+#rock {
+  background-color: red;
+}
+#paper {
+  background-color: blue;
+}
+#scissor {
+  background-color: green;
+}
+
+
+.flash {
+  opacity: 0.4;
+}
